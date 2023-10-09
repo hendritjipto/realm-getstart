@@ -1,0 +1,15 @@
+{
+  "type": "module",
+  "name": "realmjs5",
+  "version": "1.0.0",
+  "description": "Get start your Realm device sync with NodeJS. The NodeJS SDK it's a script based porgramming and it's simplify your development. To run your NodeJS you don't need to compile your application, make it roboust for faster prototyping and testing.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "realm": "^12.2.1"
+  }
+}

@@ -1,0 +1,50 @@
+[{
+  "_id": {
+    "$oid": "652228bc0cb8ef5b44849a47"
+  },
+  "name": "John Wick",
+  "age": 30,
+  "insurance_type": "Life Insurance",
+  "premium": 500,
+  "role": "manager"
+},
+{
+  "_id": {
+    "$oid": "652228bc0cb8ef5b44849a48"
+  },
+  "name": "Jane Smith",
+  "age": 45,
+  "insurance_type": "Health Insurance",
+  "premium": 700,
+  "role": "user"
+},
+{
+  "_id": {
+    "$oid": "652228bc0cb8ef5b44849a49"
+  },
+  "name": "Bob Johnson",
+  "age": 35,
+  "insurance_type": "Car Insurance",
+  "premium": 400,
+  "role": "manager"
+},
+{
+  "_id": {
+    "$oid": "652228bc0cb8ef5b44849a4a"
+  },
+  "name": "Alice Williams",
+  "age": 50,
+  "insurance_type": "Home Insurance",
+  "premium": 800,
+  "role": "user"
+},
+{
+  "_id": {
+    "$oid": "652228bc0cb8ef5b44849a4b"
+  },
+  "name": "Charlie Brown",
+  "age": 40,
+  "insurance_type": "Travel Insurance",
+  "premium": 650,
+  "role": "manager"
+}]

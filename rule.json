@@ -1,0 +1,52 @@
+{
+    "roles": [
+      {
+        "name": "UserRole",
+        "apply_when": {
+          "%%user.custom_data.role": "user"
+        },
+        "document_filters": {
+          "write": false,
+          "read": {
+            "role": "user"
+          }
+        },
+        "fields": {
+          "age": {
+            "read": false,
+            "write": false
+          },
+          "insurance_type": {
+            "read": true,
+            "write": false
+          },
+          "name": {
+            "read": true,
+            "write": false
+          },
+          "role": {
+            "read": true,
+            "write": false
+          }
+        },
+        "insert": false,
+        "delete": false,
+        "search": true
+      },
+      {
+        "name": "Manager",
+        "apply_when": {
+          "%%user.custom_data.role": "manager"
+        },
+        "document_filters": {
+          "write": true,
+          "read": true
+        },
+        "read": true,
+        "write": true,
+        "insert": false,
+        "delete": false,
+        "search": true
+      }
+    ]
+  }

@@ -1,0 +1,24 @@
+[{
+  "_id": {
+    "$oid": "65221f990cb8ef5b44849a41"
+  },
+  "user": "65221d4f9bfc226d69fa3ccf",
+  "role": "user",
+  "office": "Singapore"
+},
+{
+  "_id": {
+    "$oid": "652247b70cb8ef5b44849a4f"
+  },
+  "user": "652247d33e680ea09eccaa29",
+  "role": "manager",
+  "office": "Singapore"
+},
+{
+  "_id": {
+    "$oid": "6522c6e00cb8ef5b44849a52"
+  },
+  "user": "6522c5f692f5ba7f98f78c60",
+  "role": "user",
+  "office": "Singapore"
+}]
